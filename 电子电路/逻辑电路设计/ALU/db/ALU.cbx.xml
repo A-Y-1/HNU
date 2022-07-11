@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<LOG_ROOT>
-	<PROJECT NAME="ALU">
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_sjh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_4lh.tdf"/>
-	</PROJECT>
-</LOG_ROOT>
