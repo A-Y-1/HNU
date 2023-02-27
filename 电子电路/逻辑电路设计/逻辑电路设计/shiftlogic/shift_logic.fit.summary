@@ -1,0 +1,10 @@
+Fitter Status : Successful - Wed Dec 29 18:22:34 2021
+Quartus II Version : 9.0 Build 184 04/29/2009 SP 1 SJ Web Edition
+Revision Name : shift_logic
+Top-level Entity Name : shift_logic
+Family : FLEX10K
+Device : EPF10K10TI144-4
+Timing Models : Final
+Total logic elements : 19 / 576 ( 3 % )
+Total pins : 20 / 102 ( 20 % )
+Total memory bits : 0 / 6,144 ( 0 % )

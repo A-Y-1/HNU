@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.025 ns
+From           : DATAIN[4]
+To             : lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_mc91:auto_generated|ram_block1a0~porta_datain_reg4
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.384 ns
+From           : lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_mc91:auto_generated|ram_block1a0~porta_address_reg7
+To             : DATAOUT[2]
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 16.319 ns
+From           : DL
+To             : DATAOUT[6]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.065 ns
+From           : ADDR[0]
+To             : lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_mc91:auto_generated|ram_block1a0~porta_address_reg0
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 146.56 MHz ( period = 6.823 ns )
+From           : lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_mc91:auto_generated|ram_block1a0~porta_address_reg7
+To             : lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_mc91:auto_generated|ram_block1a0~porta_datain_reg4
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

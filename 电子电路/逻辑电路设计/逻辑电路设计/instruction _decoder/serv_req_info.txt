@@ -1,0 +1,29 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x01ae0dc2: RESR_TMW + 0x20dc2 (??1TMW_WND@@UAE@XZ + 0x832)
+	0x5dd1ba48: mfc90 + 0x5ba48
+	0x5dd1a63c: mfc90 + 0x5a63c
+	0x5dd1a8c8: mfc90 + 0x5a8c8
+	0x5dd185b2: mfc90 + 0x585b2
+	0x770931da: USER32 + 0x431da (AddClipboardFormatListener + 0x4a)
+	0x7708a179: USER32 + 0x3a179 (GetClassLongW + 0x7a9)
+	0x77087ee9: USER32 + 0x37ee9 (DispatchMessageW + 0x249)
+	0x7707a07f: USER32 + 0x2a07f (DispatchMessageA + 0xf)
+	0x5dd5a866: mfc90 + 0x9a866
+	0x5dd3a1fe: mfc90 + 0x7a1fe
+	0x0c24a470: sys_bmw + 0x2a470 (?do_new_project_wizard@BMW_NEW_PRJ_WZD@@QAI_NABV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@0@Z + 0x810)
+	0x70af0f83: UxTheme + 0x30f83 (Ordinal45 + 0x1e03)
+	0xffffffffffffffff:
+	</callstack>
+	<error>Current editor: STED, RPW, RUI, STED</error>
+	<date>Sun Dec 05 17:27:13 2021</date>
+	<version>Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition</version>
+	<full_error>Access Violation at 0X01AE0DC2
+Current editor: STED, RPW, RUI, STED
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition </full_error>
+</internal_error>
+

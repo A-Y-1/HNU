@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jan 02 19:02:45 2022
+Quartus II Version : 9.0 Build 184 04/29/2009 SP 1.11 SJ Web Edition
+Revision Name : instruction_decoder
+Top-level Entity Name : instruction_decoder
+Family : Cyclone II
+Total logic elements : 22
+    Total combinational functions : 22
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 25
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

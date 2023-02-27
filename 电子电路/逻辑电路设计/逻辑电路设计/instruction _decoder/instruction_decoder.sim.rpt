@@ -1,0 +1,297 @@
+Simulator report for instruction_decoder
+Sun Jan 02 12:06:11 2022
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 10.0 ms      ;
+; Simulation Netlist Size     ; 137 nodes    ;
+; Simulation Coverage         ;      97.81 % ;
+; Total Number of Transitions ; 1153         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                   ;
++--------------------------------------------------------------------------------------------+-------------------------+---------------+
+; Option                                                                                     ; Setting                 ; Default Value ;
++--------------------------------------------------------------------------------------------+-------------------------+---------------+
+; Simulation mode                                                                            ; Functional              ; Timing        ;
+; Start time                                                                                 ; 0 ns                    ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF                    ;               ;
+; Vector input source                                                                        ; instruction_decoder.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                      ; On            ;
+; Check outputs                                                                              ; Off                     ; Off           ;
+; Report simulation coverage                                                                 ; On                      ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                      ; On            ;
+; Display missing 1-value coverage report                                                    ; On                      ; On            ;
+; Display missing 0-value coverage report                                                    ; On                      ; On            ;
+; Detect setup and hold time violations                                                      ; Off                     ; Off           ;
+; Detect glitches                                                                            ; Off                     ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                     ; Off           ;
+; Generate Signal Activity File                                                              ; Off                     ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                     ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                     ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                      ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE              ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                     ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                     ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                    ; Auto          ;
++--------------------------------------------------------------------------------------------+-------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      97.81 % ;
+; Total nodes checked                                 ; 137          ;
+; Total output ports checked                          ; 137          ;
+; Total output ports with complete 1/0-value coverage ; 134          ;
+; Total output ports with no 1/0-value coverage       ; 0            ;
+; Total output ports with no 1-value coverage         ; 3            ;
+; Total output ports with no 0-value coverage         ; 0            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                        ;
++--------------------------------+--------------------------------+------------------+
+; Node Name                      ; Output Port Name               ; Output Port Type ;
++--------------------------------+--------------------------------+------------------+
+; |instruction_decoder|always0~0 ; |instruction_decoder|always0~0 ; out0             ;
+; |instruction_decoder|always0~1 ; |instruction_decoder|always0~1 ; out0             ;
+; |instruction_decoder|MOVC~0    ; |instruction_decoder|MOVC~0    ; out              ;
+; |instruction_decoder|MOVA~0    ; |instruction_decoder|MOVA~0    ; out              ;
+; |instruction_decoder|always0~2 ; |instruction_decoder|always0~2 ; out0             ;
+; |instruction_decoder|HALT~0    ; |instruction_decoder|HALT~0    ; out              ;
+; |instruction_decoder|NOP~0     ; |instruction_decoder|NOP~0     ; out              ;
+; |instruction_decoder|HALT~1    ; |instruction_decoder|HALT~1    ; out              ;
+; |instruction_decoder|OUT1~0    ; |instruction_decoder|OUT1~0    ; out              ;
+; |instruction_decoder|NOP~1     ; |instruction_decoder|NOP~1     ; out              ;
+; |instruction_decoder|HALT~2    ; |instruction_decoder|HALT~2    ; out              ;
+; |instruction_decoder|JC~0      ; |instruction_decoder|JC~0      ; out              ;
+; |instruction_decoder|JZ~0      ; |instruction_decoder|JZ~0      ; out              ;
+; |instruction_decoder|JMP~0     ; |instruction_decoder|JMP~0     ; out              ;
+; |instruction_decoder|IN1~0     ; |instruction_decoder|IN1~0     ; out              ;
+; |instruction_decoder|OUT1~1    ; |instruction_decoder|OUT1~1    ; out              ;
+; |instruction_decoder|NOP~2     ; |instruction_decoder|NOP~2     ; out              ;
+; |instruction_decoder|HALT~3    ; |instruction_decoder|HALT~3    ; out              ;
+; |instruction_decoder|RSR~0     ; |instruction_decoder|RSR~0     ; out              ;
+; |instruction_decoder|RSL~0     ; |instruction_decoder|RSL~0     ; out              ;
+; |instruction_decoder|JC~1      ; |instruction_decoder|JC~1      ; out              ;
+; |instruction_decoder|JZ~1      ; |instruction_decoder|JZ~1      ; out              ;
+; |instruction_decoder|JMP~1     ; |instruction_decoder|JMP~1     ; out              ;
+; |instruction_decoder|IN1~1     ; |instruction_decoder|IN1~1     ; out              ;
+; |instruction_decoder|OUT1~2    ; |instruction_decoder|OUT1~2    ; out              ;
+; |instruction_decoder|NOP~3     ; |instruction_decoder|NOP~3     ; out              ;
+; |instruction_decoder|HALT~4    ; |instruction_decoder|HALT~4    ; out              ;
+; |instruction_decoder|RSR~1     ; |instruction_decoder|RSR~1     ; out              ;
+; |instruction_decoder|RSL~1     ; |instruction_decoder|RSL~1     ; out              ;
+; |instruction_decoder|JC~2      ; |instruction_decoder|JC~2      ; out              ;
+; |instruction_decoder|JZ~2      ; |instruction_decoder|JZ~2      ; out              ;
+; |instruction_decoder|JMP~2     ; |instruction_decoder|JMP~2     ; out              ;
+; |instruction_decoder|IN1~2     ; |instruction_decoder|IN1~2     ; out              ;
+; |instruction_decoder|OUT1~3    ; |instruction_decoder|OUT1~3    ; out              ;
+; |instruction_decoder|NOP~4     ; |instruction_decoder|NOP~4     ; out              ;
+; |instruction_decoder|HALT~5    ; |instruction_decoder|HALT~5    ; out              ;
+; |instruction_decoder|NOT1~0    ; |instruction_decoder|NOT1~0    ; out              ;
+; |instruction_decoder|RSR~2     ; |instruction_decoder|RSR~2     ; out              ;
+; |instruction_decoder|RSL~2     ; |instruction_decoder|RSL~2     ; out              ;
+; |instruction_decoder|JC~3      ; |instruction_decoder|JC~3      ; out              ;
+; |instruction_decoder|JZ~3      ; |instruction_decoder|JZ~3      ; out              ;
+; |instruction_decoder|JMP~3     ; |instruction_decoder|JMP~3     ; out              ;
+; |instruction_decoder|IN1~3     ; |instruction_decoder|IN1~3     ; out              ;
+; |instruction_decoder|OUT1~4    ; |instruction_decoder|OUT1~4    ; out              ;
+; |instruction_decoder|NOP~5     ; |instruction_decoder|NOP~5     ; out              ;
+; |instruction_decoder|HALT~6    ; |instruction_decoder|HALT~6    ; out              ;
+; |instruction_decoder|AND1~0    ; |instruction_decoder|AND1~0    ; out              ;
+; |instruction_decoder|NOT1~1    ; |instruction_decoder|NOT1~1    ; out              ;
+; |instruction_decoder|RSR~3     ; |instruction_decoder|RSR~3     ; out              ;
+; |instruction_decoder|RSL~3     ; |instruction_decoder|RSL~3     ; out              ;
+; |instruction_decoder|JC~4      ; |instruction_decoder|JC~4      ; out              ;
+; |instruction_decoder|JZ~4      ; |instruction_decoder|JZ~4      ; out              ;
+; |instruction_decoder|JMP~4     ; |instruction_decoder|JMP~4     ; out              ;
+; |instruction_decoder|IN1~4     ; |instruction_decoder|IN1~4     ; out              ;
+; |instruction_decoder|OUT1~5    ; |instruction_decoder|OUT1~5    ; out              ;
+; |instruction_decoder|NOP~6     ; |instruction_decoder|NOP~6     ; out              ;
+; |instruction_decoder|HALT~7    ; |instruction_decoder|HALT~7    ; out              ;
+; |instruction_decoder|SUB~0     ; |instruction_decoder|SUB~0     ; out              ;
+; |instruction_decoder|AND1~1    ; |instruction_decoder|AND1~1    ; out              ;
+; |instruction_decoder|NOT1~2    ; |instruction_decoder|NOT1~2    ; out              ;
+; |instruction_decoder|RSR~4     ; |instruction_decoder|RSR~4     ; out              ;
+; |instruction_decoder|RSL~4     ; |instruction_decoder|RSL~4     ; out              ;
+; |instruction_decoder|JC~5      ; |instruction_decoder|JC~5      ; out              ;
+; |instruction_decoder|JZ~5      ; |instruction_decoder|JZ~5      ; out              ;
+; |instruction_decoder|JMP~5     ; |instruction_decoder|JMP~5     ; out              ;
+; |instruction_decoder|IN1~5     ; |instruction_decoder|IN1~5     ; out              ;
+; |instruction_decoder|OUT1~6    ; |instruction_decoder|OUT1~6    ; out              ;
+; |instruction_decoder|NOP~7     ; |instruction_decoder|NOP~7     ; out              ;
+; |instruction_decoder|HALT~8    ; |instruction_decoder|HALT~8    ; out              ;
+; |instruction_decoder|MOVB~0    ; |instruction_decoder|MOVB~0    ; out              ;
+; |instruction_decoder|MOVC~1    ; |instruction_decoder|MOVC~1    ; out              ;
+; |instruction_decoder|ADD~0     ; |instruction_decoder|ADD~0     ; out              ;
+; |instruction_decoder|SUB~1     ; |instruction_decoder|SUB~1     ; out              ;
+; |instruction_decoder|AND1~2    ; |instruction_decoder|AND1~2    ; out              ;
+; |instruction_decoder|NOT1~3    ; |instruction_decoder|NOT1~3    ; out              ;
+; |instruction_decoder|RSR~5     ; |instruction_decoder|RSR~5     ; out              ;
+; |instruction_decoder|RSL~5     ; |instruction_decoder|RSL~5     ; out              ;
+; |instruction_decoder|JC~6      ; |instruction_decoder|JC~6      ; out              ;
+; |instruction_decoder|JZ~6      ; |instruction_decoder|JZ~6      ; out              ;
+; |instruction_decoder|JMP~6     ; |instruction_decoder|JMP~6     ; out              ;
+; |instruction_decoder|IN1~6     ; |instruction_decoder|IN1~6     ; out              ;
+; |instruction_decoder|OUT1~7    ; |instruction_decoder|OUT1~7    ; out              ;
+; |instruction_decoder|NOP~8     ; |instruction_decoder|NOP~8     ; out              ;
+; |instruction_decoder|HALT~9    ; |instruction_decoder|HALT~9    ; out              ;
+; |instruction_decoder|MOVB~1    ; |instruction_decoder|MOVB~1    ; out              ;
+; |instruction_decoder|MOVC~2    ; |instruction_decoder|MOVC~2    ; out              ;
+; |instruction_decoder|ADD~1     ; |instruction_decoder|ADD~1     ; out              ;
+; |instruction_decoder|SUB~2     ; |instruction_decoder|SUB~2     ; out              ;
+; |instruction_decoder|AND1~3    ; |instruction_decoder|AND1~3    ; out              ;
+; |instruction_decoder|NOT1~4    ; |instruction_decoder|NOT1~4    ; out              ;
+; |instruction_decoder|RSR~6     ; |instruction_decoder|RSR~6     ; out              ;
+; |instruction_decoder|RSL~6     ; |instruction_decoder|RSL~6     ; out              ;
+; |instruction_decoder|JC~7      ; |instruction_decoder|JC~7      ; out              ;
+; |instruction_decoder|JZ~7      ; |instruction_decoder|JZ~7      ; out              ;
+; |instruction_decoder|JMP~7     ; |instruction_decoder|JMP~7     ; out              ;
+; |instruction_decoder|IN1~7     ; |instruction_decoder|IN1~7     ; out              ;
+; |instruction_decoder|OUT1~8    ; |instruction_decoder|OUT1~8    ; out              ;
+; |instruction_decoder|NOP~9     ; |instruction_decoder|NOP~9     ; out              ;
+; |instruction_decoder|HALT~10   ; |instruction_decoder|HALT~10   ; out              ;
+; |instruction_decoder|EN        ; |instruction_decoder|EN        ; out              ;
+; |instruction_decoder|ir[0]     ; |instruction_decoder|ir[0]     ; out              ;
+; |instruction_decoder|ir[1]     ; |instruction_decoder|ir[1]     ; out              ;
+; |instruction_decoder|ir[2]     ; |instruction_decoder|ir[2]     ; out              ;
+; |instruction_decoder|ir[3]     ; |instruction_decoder|ir[3]     ; out              ;
+; |instruction_decoder|ir[4]     ; |instruction_decoder|ir[4]     ; out              ;
+; |instruction_decoder|ir[5]     ; |instruction_decoder|ir[5]     ; out              ;
+; |instruction_decoder|ir[6]     ; |instruction_decoder|ir[6]     ; out              ;
+; |instruction_decoder|ir[7]     ; |instruction_decoder|ir[7]     ; out              ;
+; |instruction_decoder|MOVB      ; |instruction_decoder|MOVB      ; pin_out          ;
+; |instruction_decoder|MOVC      ; |instruction_decoder|MOVC      ; pin_out          ;
+; |instruction_decoder|ADD       ; |instruction_decoder|ADD       ; pin_out          ;
+; |instruction_decoder|SUB       ; |instruction_decoder|SUB       ; pin_out          ;
+; |instruction_decoder|AND1      ; |instruction_decoder|AND1      ; pin_out          ;
+; |instruction_decoder|NOT1      ; |instruction_decoder|NOT1      ; pin_out          ;
+; |instruction_decoder|RSR       ; |instruction_decoder|RSR       ; pin_out          ;
+; |instruction_decoder|RSL       ; |instruction_decoder|RSL       ; pin_out          ;
+; |instruction_decoder|JMP       ; |instruction_decoder|JMP       ; pin_out          ;
+; |instruction_decoder|JZ        ; |instruction_decoder|JZ        ; pin_out          ;
+; |instruction_decoder|JC        ; |instruction_decoder|JC        ; pin_out          ;
+; |instruction_decoder|IN1       ; |instruction_decoder|IN1       ; pin_out          ;
+; |instruction_decoder|OUT1      ; |instruction_decoder|OUT1      ; pin_out          ;
+; |instruction_decoder|NOP       ; |instruction_decoder|NOP       ; pin_out          ;
+; |instruction_decoder|HALT      ; |instruction_decoder|HALT      ; pin_out          ;
+; |instruction_decoder|Equal0~0  ; |instruction_decoder|Equal0~0  ; out0             ;
+; |instruction_decoder|Equal1~0  ; |instruction_decoder|Equal1~0  ; out0             ;
+; |instruction_decoder|Equal2~0  ; |instruction_decoder|Equal2~0  ; out0             ;
+; |instruction_decoder|Equal3~0  ; |instruction_decoder|Equal3~0  ; out0             ;
+; |instruction_decoder|Equal4~0  ; |instruction_decoder|Equal4~0  ; out0             ;
+; |instruction_decoder|Equal5~0  ; |instruction_decoder|Equal5~0  ; out0             ;
+; |instruction_decoder|Equal6~0  ; |instruction_decoder|Equal6~0  ; out0             ;
+; |instruction_decoder|Equal7~0  ; |instruction_decoder|Equal7~0  ; out0             ;
+; |instruction_decoder|Equal8~0  ; |instruction_decoder|Equal8~0  ; out0             ;
+; |instruction_decoder|Equal9~0  ; |instruction_decoder|Equal9~0  ; out0             ;
+; |instruction_decoder|Equal10~0 ; |instruction_decoder|Equal10~0 ; out0             ;
++--------------------------------+--------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                     ;
++-----------------------------+-----------------------------+------------------+
+; Node Name                   ; Output Port Name            ; Output Port Type ;
++-----------------------------+-----------------------------+------------------+
+; |instruction_decoder|MOVA~1 ; |instruction_decoder|MOVA~1 ; out              ;
+; |instruction_decoder|MOVA~2 ; |instruction_decoder|MOVA~2 ; out              ;
+; |instruction_decoder|MOVA   ; |instruction_decoder|MOVA   ; pin_out          ;
++-----------------------------+-----------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------+
+; Missing 0-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition
+    Info: Processing started: Sun Jan 02 12:06:11 2022
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off instruction_decoder -c instruction_decoder
+Info: Using vector source file "D:/Files/文档/大二上/数电模电/逻辑电路设计/instruction _decoder/instruction_decoder.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      97.81 %
+Info: Number of transitions in simulation is 1153
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 149 megabytes
+    Info: Processing ended: Sun Jan 02 12:06:11 2022
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+

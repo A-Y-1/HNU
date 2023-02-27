@@ -1,0 +1,11 @@
+|PSW
+clk => c~reg0.CLK
+clk => z~reg0.CLK
+cf_en => c~reg0.ENA
+zf_en => z~reg0.ENA
+c <= c~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z <= z~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cf => c~reg0.DATAIN
+zf => z~reg0.DATAIN
+
+

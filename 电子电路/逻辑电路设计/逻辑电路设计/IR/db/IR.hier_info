@@ -1,0 +1,35 @@
+|IR
+clk => ir[7]~reg0.CLK
+clk => ir[6]~reg0.CLK
+clk => ir[5]~reg0.CLK
+clk => ir[4]~reg0.CLK
+clk => ir[3]~reg0.CLK
+clk => ir[2]~reg0.CLK
+clk => ir[1]~reg0.CLK
+clk => ir[0]~reg0.CLK
+ir_ld => ir[0]~reg0.ENA
+ir_ld => ir[1]~reg0.ENA
+ir_ld => ir[2]~reg0.ENA
+ir_ld => ir[3]~reg0.ENA
+ir_ld => ir[4]~reg0.ENA
+ir_ld => ir[5]~reg0.ENA
+ir_ld => ir[6]~reg0.ENA
+ir_ld => ir[7]~reg0.ENA
+d[0] => ir[0]~reg0.DATAIN
+d[1] => ir[1]~reg0.DATAIN
+d[2] => ir[2]~reg0.DATAIN
+d[3] => ir[3]~reg0.DATAIN
+d[4] => ir[4]~reg0.DATAIN
+d[5] => ir[5]~reg0.DATAIN
+d[6] => ir[6]~reg0.DATAIN
+d[7] => ir[7]~reg0.DATAIN
+ir[0] <= ir[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ir[1] <= ir[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ir[2] <= ir[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ir[3] <= ir[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ir[4] <= ir[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ir[5] <= ir[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ir[6] <= ir[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ir[7] <= ir[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

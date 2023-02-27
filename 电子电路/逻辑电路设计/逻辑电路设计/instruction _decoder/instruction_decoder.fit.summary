@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Jan 02 19:02:47 2022
+Quartus II Version : 9.0 Build 184 04/29/2009 SP 1.11 SJ Web Edition
+Revision Name : instruction_decoder
+Top-level Entity Name : instruction_decoder
+Family : Cyclone II
+Device : EP2C5T144C8
+Timing Models : Final
+Total logic elements : 22 / 4,608 ( < 1 % )
+    Total combinational functions : 22 / 4,608 ( < 1 % )
+    Dedicated logic registers : 0 / 4,608 ( 0 % )
+Total registers : 0
+Total pins : 25 / 89 ( 28 % )
+Total virtual pins : 0
+Total memory bits : 0 / 119,808 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

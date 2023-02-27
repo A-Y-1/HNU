@@ -1,0 +1,115 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x6f422e74:
+	0x09bfad25: edt_wed + 0xad25 (edt_wed_get_module_handle + 0x65d5)
+	0x09c9e46d: edt_wed + 0xae46d (?wed_wsf_parser_yyparse@@YAHPAVFlexLexer@@PAX@Z + 0x2de8d)
+	0x09c2a988: edt_wed + 0x3a988 (edt_wed_dll_get_template_classes + 0x23ea8)
+	</callstack>
+	<error>Current editor: WED, RPW, RPW, MED, STED</error>
+	<date>Sat Jan 01 23:40:24 2022</date>
+	<version>Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition</version>
+	<full_error>Access Violation at 0X6F422E74
+Current editor: WED, RPW, RPW, MED, STED
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x100460e1: GCL_AFC + 0x460e1 (?open_document_file@AFC_TEMPLATE_MANAGER@@UAIPAVCDocument@@PBDPBVAFC_DOC_INFO@@PAVAFC_PROJECT_STATE_MAP@@_N33@Z + 0x801)
+	</callstack>
+	<error>Current editor: GED, RPW, WED, STED, STED, RPW</error>
+	<date>Mon Jan 03 08:25:32 2022</date>
+	<version>Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition</version>
+	<full_error>Access Violation at 0X100460E1
+Current editor: GED, RPW, WED, STED, STED, RPW
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x100460e1: GCL_AFC + 0x460e1 (?open_document_file@AFC_TEMPLATE_MANAGER@@UAIPAVCDocument@@PBDPBVAFC_DOC_INFO@@PAVAFC_PROJECT_STATE_MAP@@_N33@Z + 0x801)
+	</callstack>
+	<error>Current editor: RPW, GED</error>
+	<date>Mon Jan 03 08:31:15 2022</date>
+	<version>Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition</version>
+	<full_error>Access Violation at 0X100460E1
+Current editor: RPW, GED
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x100460e1: GCL_AFC + 0x460e1 (?open_document_file@AFC_TEMPLATE_MANAGER@@UAIPAVCDocument@@PBDPBVAFC_DOC_INFO@@PAVAFC_PROJECT_STATE_MAP@@_N33@Z + 0x801)
+	</callstack>
+	<error>Current editor: RPW, WED, RPW, GED, STED, STED, STED</error>
+	<date>Mon Jan 03 09:19:54 2022</date>
+	<version>Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition</version>
+	<full_error>Access Violation at 0X100460E1
+Current editor: RPW, WED, RPW, GED, STED, STED, STED
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x100460e1: GCL_AFC + 0x460e1 (?open_document_file@AFC_TEMPLATE_MANAGER@@UAIPAVCDocument@@PBDPBVAFC_DOC_INFO@@PAVAFC_PROJECT_STATE_MAP@@_N33@Z + 0x801)
+	</callstack>
+	<error>Current editor: GED</error>
+	<date>Mon Jan 03 09:23:08 2022</date>
+	<version>Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition</version>
+	<full_error>Access Violation at 0X100460E1
+Current editor: GED
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x100460e1: GCL_AFC + 0x460e1 (?open_document_file@AFC_TEMPLATE_MANAGER@@UAIPAVCDocument@@PBDPBVAFC_DOC_INFO@@PAVAFC_PROJECT_STATE_MAP@@_N33@Z + 0x801)
+	</callstack>
+	<error>Current editor: RPW, GED</error>
+	<date>Mon Jan 03 10:01:01 2022</date>
+	<version>Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition</version>
+	<full_error>Access Violation at 0X100460E1
+Current editor: RPW, GED
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x100460e1: GCL_AFC + 0x460e1 (?open_document_file@AFC_TEMPLATE_MANAGER@@UAIPAVCDocument@@PBDPBVAFC_DOC_INFO@@PAVAFC_PROJECT_STATE_MAP@@_N33@Z + 0x801)
+	</callstack>
+	<error>Current editor: RPW</error>
+	<date>Mon Jan 03 10:08:28 2022</date>
+	<version>Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition</version>
+	<full_error>Access Violation at 0X100460E1
+Current editor: RPW
+Quartus II Version 9.0 Build 184 04/29/2009 Service Pack 1.11 SJ Web Edition </full_error>
+</internal_error>
+

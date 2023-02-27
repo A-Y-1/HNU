@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jan 02 11:50:00 2022
+Quartus II Version : 9.0 Build 184 04/29/2009 SP 1.11 SJ Web Edition
+Revision Name : IR
+Top-level Entity Name : IR
+Family : Cyclone II
+Total logic elements : 8
+    Total combinational functions : 0
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

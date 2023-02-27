@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jan 02 11:40:45 2022
+Quartus II Version : 9.0 Build 184 04/29/2009 SP 1.11 SJ Web Edition
+Revision Name : RAM
+Top-level Entity Name : RAM
+Family : Cyclone II
+Total logic elements : 10
+    Total combinational functions : 10
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 27
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

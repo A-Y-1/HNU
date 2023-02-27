@@ -1,0 +1,21 @@
+module instruction_decoder(EN,ir,MOVA,MOVB,MOVC,ADD,SUB,AND1,NOT1,RSR,RSL,JMP,JZ,JC,IN1,OUT1,NOP,HALT);
+	input [7:0] ir;
+	input EN;
+	output MOVA,MOVB,MOVC,ADD,SUB,AND1,NOT1,RSR,RSL,JMP,JZ,JC,IN1,OUT1,NOP,HALT;
+	assign MOVA=!ir[4]&&!ir[5]&&ir[6]&&ir[7]&&!MOVB&&!MOVC;
+	assign MOVB=!ir[4]&&!ir[5]&&ir[6]&&ir[7]&&ir[3]&&ir[2];
+	assign MOVC=!ir[4]&&!ir[5]&&ir[6]&&ir[7]&&ir[1]&&ir[0];
+	assign ADD=ir[7]&&!ir[6]&&!ir[5]&&ir[4];
+	assign SUB=!ir[7]&&ir[6]&&ir[5]&&!ir[4];
+	assign AND=ir[7]&&!ir[6]&&ir[5]&&ir[4];
+	assign NOT1=!ir[7]&&ir[6]&&!ir[5]&&ir[4];
+	assign RSR=ir[7]&&!ir[6]&&ir[5]&&!ir[4]&&!ir[1]&&!ir[0];
+	assign RSL=ir[7]&&!ir[6]&&ir[5]&&!ir[4]&&ir[1]&&ir[0];
+	assign JMP=!ir[7]&&!ir[6]&&ir[5]&&ir[4]&&!ir[1]&&!ir[0];
+	assign JZ=!ir[7]&&!ir[6]&&ir[5]&&ir[4]&&!ir[1]&&ir[0];
+	assign JC=!ir[7]&&!ir[6]&&ir[5]&&ir[4]&&ir[1]&&!ir[0];
+	assign IN1=!ir[7]&&!ir[6]&&ir[5]&&!ir[4];
+	assign OUT1=!ir[7]&&ir[6]!&&ir[5]&&!ir[4];
+	assign NOP=!ir[7]&&ir[6]&&ir[5]&&ir[4];
+	assign HALT=ir[7]&&!ir[6]&&!ir[5]&&!ir[4];
+endmodule
